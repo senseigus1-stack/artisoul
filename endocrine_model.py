@@ -76,7 +76,8 @@ class AdvancedEndocrineSystem:
             't3': self.t3,
             'testosterone': self.testosterone if self.sex == 'male' else self.estradiol,
             'allostatic_load': self.allostatic_load,
-            'menstrual_phase': self.menstrual_phase
+            'menstrual_phase': self.menstrual_phase,
+
         }
 
     # -------------------------------------------------------------------------
